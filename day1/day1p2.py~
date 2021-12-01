@@ -1,0 +1,9 @@
+file = open("input", "r")
+list_file = [int(i) for i in range file.readlines()]
+
+list_3pair = []
+a = 0
+
+for i in range(3, len(list_file)):
+    list_3pair.append(list_file[i-2] + list_file[i-1] + list_file[i])
+print(list_3pair)
