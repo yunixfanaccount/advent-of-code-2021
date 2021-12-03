@@ -1,3 +1,4 @@
+inplist = []
 with open('input', 'r') as file:
     inplist = file.read().split()
 
